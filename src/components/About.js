@@ -19,39 +19,36 @@ class About extends React.Component {
   render() {
     const one = (
       <p>
-        I am currently a <b>Software Development Engineer</b> at
-        <a href="https://www.aboutamazon.com/"> Amazon</a>, working in the AWS
-        sector under team Route 53. At the same time, I am undertaking a
-        part-time <b> Master's of Science</b> in <b>Software Engineering </b>at{" "}
-        <a href="https://www.ox.ac.uk/about">University of Oxford</a>.
+        I'm currently pursuing my Master's in Computer Science at
+        <a href="https://www.bu.edu/"> Boston University</a>, with a strong interest in AI, data, and building things that solve real problems. Over the past few years, I've gained hands - on experience through internships and projects where I got to apply my skills in machine learning,
+        data engineering, and software development.
+      </p>
+    );
+    const availability = (
+      <p>
+        I'm actively seeking internship and full-time opportunities starting January 2026, where I can contribute my skills and continue growing as an engineer.
       </p>
     );
     const two = (
       <p>
-        Outside of work, I'm interested in following the developments of
-        science. I also play a lot of video games. And make TikToks.
+        Outside of code, I love creating small games
+        for fun, diving into space documentaries, and hunting down new coffee spots whenever I get the chance.
       </p>
     );
 
-    const tech_stack = [
-      "Typescript",
-      "Python",
-      "React.js",
-      "Java",
-      "Javascript ES6+",
-      "C#"
-    ];
+    const tech_stack = ["Python", "Java", "JavaScript", "React.js", "SQL", "C++"];
 
     return (
       <div id="about">
         <FadeInSection>
           <div className="section-header ">
-            <span className="section-title">/ about me</span>
+            <span className="section-title"># about me</span>
           </div>
           <div className="about-content">
             <div className="about-description">
               {[one]}
-              {"Here are some technologies I have been working with:"}
+              {[availability]}
+              {"Here are some Languages I have been working with:"}
               <ul className="tech-stack">
                 {tech_stack.map(function (tech_item, i) {
                   return (
@@ -64,7 +61,7 @@ class About extends React.Component {
               {[two]}
             </div>
             <div className="about-image">
-              <img alt="Gazi Jarin" src={"/assets/me2.jpg"} />
+              <img alt="Dirgha Jivani" src={"/assets/dir.jpg"} />
             </div>
           </div>
         </FadeInSection>

@@ -1,5 +1,5 @@
 {
-  "name": "gazi-jarin",
+  "name": "dirghaj",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +9,8 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.6.1",
+    "is-docker": "^3.0.0",
+    "is-wsl": "^3.1.0",
     "p5": "^1.5.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.6.4",
@@ -50,5 +52,5 @@
     "gh-pages": "^3.1.0",
     "prettier": "^2.2.1"
   },
-  "homepage": "https://gazijarin.com"
+  "homepage": "https://jdirgha.github.io"
 }

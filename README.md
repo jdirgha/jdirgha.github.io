@@ -1,47 +1,78 @@
-<p align="center">
-  <img src="https://img.icons8.com/color/48/000000/magritte.png"/>
-</p>
-<h1 align="center">
-  gazijarin.com - v1
-</h1>
-<p align="center">
-  The first iteration of <a href="https://gazijarin.com" target="_blank">gazijarin.com</a> built with React.js leveraging Material UI.
-</p>
+# Personal Portfolio
 
-<img width="1306" alt="Screen Shot 2021-03-15 at 8 29 18 PM" src="https://user-images.githubusercontent.com/32211479/111238274-24f8b100-85cd-11eb-9d5a-00f07cbc05e9.png">
+This is my personal portfolio website where I share my work experience, projects, and skills as a software engineer and data scientist.
 
-## 🛠 set-up
+## About
 
-1. Install the dependencies
+I created this portfolio using React.js and Material UI to present my professional background in a clean and accessible way. The design focuses on smooth user experience with responsive layouts that adapt to any screen size.
 
-   ```sh
-   npm install or yarn
-   ```
+## Running Locally
 
-2. Start the development server
+If you want to run this project on your machine, follow these steps:
 
-   ```sh
-   yarn run start
-   ```
+### Setup
 
-## 🚀 build and run for production
+Clone the repository and install dependencies:
 
-1. Generate a full static production build
+```sh
+npm install
+```
 
-   ```sh
-   npm run build
-   ```
+You can also use yarn if that's what you prefer:
 
+```sh
+yarn
+```
 
-## 🎨 color codes
+### Development Server
 
-| Color          | Hex                                                                |
-| -------------- | ------------------------------------------------------------------ |
-| Navy           | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) `#0a192f` |
-| Light Navy     | ![#112240](https://via.placeholder.com/10/0a192f?text=+) `#112240` |
-| Lightest Navy  | ![#233554](https://via.placeholder.com/10/303C55?text=+) `#233554` |
-| Slate          | ![#8892b0](https://via.placeholder.com/10/8892b0?text=+) `#8892b0` |
-| Light Slate    | ![#a8b2d1](https://via.placeholder.com/10/a8b2d1?text=+) `#a8b2d1` |
-| Lightest Slate | ![#ccd6f6](https://via.placeholder.com/10/ccd6f6?text=+) `#ccd6f6` |
-| White          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
-| Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
+Start the development server:
+
+```sh
+npm start
+```
+
+This will launch the site in your browser at `http://localhost:3000`.
+
+### Building for Production
+
+To create an optimized production build:
+
+```sh
+npm run build
+```
+
+This command generates static files in the `build` directory that can be deployed to any web hosting platform.
+
+## Color Scheme
+
+The site uses a warm, earthy theme with purple accents. Here are the main colors used:
+
+| Color             | Hex Code  |
+| ----------------- | --------- |
+| Light Navy        | `#f2ebe0` |
+| Lightest Navy     | `#f7f2ea` |
+| Slate             | `#4a4236` |
+| Light Slate       | `#665c4f` |
+| Lightest Slate    | `#7d7266` |
+| Accent (Purple)   | `#533483` |
+
+## What's Inside
+
+The portfolio includes several sections:
+
+- Responsive design that works across all devices
+- Smooth animations and page transitions
+- Interactive project showcase with carousel
+- Detailed work experience timeline
+- Comprehensive skills overview
+- Educational background
+- Downloadable resume
+
+## Live Version
+
+Visit the live site at [dirghaj.com](https://dirghaj.com)
+
+---
+
+Thanks for checking out my portfolio. Feel free to explore the code or reach out if you have questions.

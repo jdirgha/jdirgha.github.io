@@ -5,15 +5,38 @@
   text-align: center;
   margin: auto;
   max-width: 1000px;
-  padding-top: 200px;
+  padding-top: 100px;
   min-height: 100vh;
+  position: relative;
+}
+
+/* ThreeJS Animation positioning - above the text */
+#intro > div:first-child {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  margin-bottom: -50px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#intro > div:first-child canvas {
+  display: block;
+  margin: 0 auto;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 .Typist {
   color: var(--lightest-slate);
   text-align: center;
   font-size: 76px;
-  margin-top: -30px;
+  margin-top: 0;
+  position: relative;
+  z-index: 1;
 }
 .Typist .Cursor--blinking {
   color: var(--green-bright);
@@ -23,12 +46,15 @@
 .intro-title {
   font-family: "NTR", sans-serif;
   font-size: 86px;
+  letter-spacing: -0.02em;
+  font-weight: 700;
 }
 .intro-name {
   font-family: "NTR", sans-serif;
   color: var(--green-bright);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 86px;
+  letter-spacing: -0.02em;
 }
 
 .intro-subtitle {
@@ -36,8 +62,9 @@
   font-family: "NTR", sans-serif;
   color: var(--slate);
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 48px;
+  letter-spacing: -0.01em;
 }
 
 .intro-desc {

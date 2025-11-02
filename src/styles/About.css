@@ -38,6 +38,8 @@
   font-size: 22px;
   text-align: justify;
   margin: 0;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
 }
 
 .about-description a,
@@ -53,10 +55,11 @@
 .about-image img {
   max-width: 300px;
   height: auto;
-  border-radius: 10px;
+  border-radius: 16px;
   margin-left: 30px;
-  box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.46);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
   border: none;
+  transition: all 0.3s ease;
 }
 
 @media only screen and (max-width: 788px) {
@@ -67,6 +70,11 @@
 
 .about-image:hover {
   transform: translateY(-7px);
+}
+
+.about-image:hover img {
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
 }
 
 @media only screen and (max-width: 600px) {

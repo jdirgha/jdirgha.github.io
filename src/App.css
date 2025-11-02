@@ -71,16 +71,18 @@ a {
   display: block;
   width: 300px;
   margin-top: 39px;
-  height: 1px;
+  height: 2px;
   margin-left: 20px;
-  background-color: var(--lightest-navy);
+  background: linear-gradient(90deg, var(--green-bright) 0%, rgba(83, 52, 131, 0.3) 100%);
+  border-radius: 1px;
 }
 
 .section-title {
   font-family: "NTR", sans-serif;
   color: var(--lightest-slate);
   font-size: 46px;
-  font-weight: bold;
+  font-weight: 700;
+  letter-spacing: -0.02em;
 }
 
 @media only screen and (max-width: 600px) {

@@ -5,7 +5,7 @@ import Typist from "react-typist";
 import "react-typist/dist/Typist.css";
 import EmailRoundedIcon from "@material-ui/icons/EmailRounded";
 import FadeInSection from "./FadeInSection";
-import FractalTree from "./FractalTree";
+import ThreeJSAnimation from "./ThreeJSAnimation";
 
 class Intro extends React.Component {
   constructor() {
@@ -25,27 +25,26 @@ class Intro extends React.Component {
   render() {
     return (
       <div id="intro">
-        <FractalTree></FractalTree>
+        <ThreeJSAnimation></ThreeJSAnimation>
         <Typist avgTypingDelay={120}>
           <span className="intro-title">
             {"hi, "}
-            <span className="intro-name">{"gazi"}</span>
-            {" here."}
+            
+            {" I'm"}
+            <span className="intro-name">{" dirgha"}</span>
           </span>
         </Typist>
         <FadeInSection>
-          <div className="intro-subtitle">I create stuff sometimes.</div>
+          <div className="intro-subtitle">Turning Vision into code.</div>
           <div className="intro-desc">
-            I'm a software engineer from Toronto, Canada. I'm fascinated by
-            large-scale, high-impact products and contributed to major feature launches in
-            industry-leading services as well as apps that have 100M+ installs.
+          I'm a software engineer with a background in building scalable systems, AI applications, cloud solutions, and data-driven tools. I enjoy working on projects that turn innovative ideas into practical, impactful solutions that make a difference in the real world.
           </div>
           <a
-            href="mailto:gazijarin@gmail.com"
+            href="mailto:jivanidirgha@gmail.com"
             className="intro-contact"
           >
             <EmailRoundedIcon></EmailRoundedIcon>
-            {" Say hi!"}
+            {" Connect!"}
           </a>
         </FadeInSection>
       </div>
