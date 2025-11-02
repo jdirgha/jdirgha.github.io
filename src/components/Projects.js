@@ -39,7 +39,7 @@ class Projects extends React.Component {
           "An interactive Streamlit app to visualize and explore ML algorithms on synthetic data",
         techStack: "PYTHON, STREAMLIT",
         link: "https://github.com/jdirgha/ML-Playground",
-        image: "/assets/Play.png"
+        image: "/assets/play.png"
       },
       "Meeting Analytics Dashboard": {
         title: "Meeting Analytics Dashboard",
