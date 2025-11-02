@@ -71,7 +71,7 @@ The portfolio includes several sections:
 
 ## Live Version
 
-Visit the live site at [dirghaj.com](https://dirghaj.com)
+Visit the live site at [dirghaj.com](https://jdirgha.github.io/)
 
 ---
 
