@@ -24,13 +24,20 @@ class Projects extends React.Component {
 
   render() {
     const spotlightProjects = {
+      "NeuroMesh": {
+        title: "NeuroMesh",
+        desc:
+          "Semantic 3D model retrieval using OpenAI CLIP vision transformers with multi-modal text and image search",
+        techStack: "PyRender, CLIP",
+        link: "https://github.com/jdirgha/3D-semantic-search",
+        image: "/assets/air.png"
+      },
       "Mind Map": {
         title: "Mind Map",
         desc:
           " A fun multiplayer word game where players submit words related to a theme, and one mindless player tries to blend in without knowing the theme!",
         techStack: "JAVASCRIPT",
         link: "https://github.com/jdirgha/Mind-Map",
-        open: " ",
         image: "/assets/mind.png"
       },
       Truth: {
@@ -47,7 +54,6 @@ class Projects extends React.Component {
           "A meeting intelligence platform",
         techStack: "PYTHON, Material UI",
         link: "https://github.com/jdirgha/Meeting-Analytics-System",
-        open: " ",
         image: "/assets/meetings.jpg"
       }
     };
@@ -123,7 +129,6 @@ class Projects extends React.Component {
                     </p>
                     <ExternalLinks
                       githubLink={spotlightProjects[key]["link"]}
-                      openLink={spotlightProjects[key]["open"]}
                     ></ExternalLinks>
                   </Carousel.Caption>
                 </div>
