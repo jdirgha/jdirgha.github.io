@@ -21,7 +21,6 @@ class NavBar extends React.Component {
               <Nav.Link href="#about">About</Nav.Link>
               <Nav.Link href="#experience">Experience</Nav.Link>
               <Nav.Link href="#projects">Projects</Nav.Link>
-              <Nav.Link href="/resume_GHC.pdf" target="_blank" rel="noopener noreferrer">Resume</Nav.Link>
             </Nav>
             <Nav className="ml-auto">
               <Nav.Link href="mailto:jivanidirgha@gmail.com">
